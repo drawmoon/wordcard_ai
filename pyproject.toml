@@ -1,0 +1,12 @@
+[project]
+name = "wordcard-ai"
+version = "0.1.0"
+description = "跑胡子（字牌）自动决策 AI "
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiofiles>=24.1.0",
+    "jinja2>=3.1.6",
+    "langchain-openai>=0.3.27",
+    "langchain[ollama,openai]>=0.3.26",
+]
